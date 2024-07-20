@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Khula:wght@300;400;600;700;800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/navlogo2.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivr.css">
+</head>
+
+<body>
+    <header>
+        <div class="background_img">
+            <nav id="nav">
+                <img src="images/RRSD.png" alt="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#offer">Offer</a></li>
+                    <li><a href="#services">Facialities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger-menu" id="open-menu" onclick="showmenu()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+            <div class="intro_page">
+                <h1>YOUR ONE STOP SHOP</h1>
+                <h1>RATHI-RAJ STUDIO</h1>
+                <p>In the hallowed halls of a photo studio, moments become memories, dreams take shape, and reality is
+                    transformed into art, each image a testament to the boundless creativity and vision of the human
+                    spirit.</p>
+                <a href="gallery.html" target="_blank"><button class="intro_btn">Go to Gallery</button></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="printings">
+            <div class="print_text">
+                <h4>Printings</h4>
+                <p>Post Cards</p>
+                <p>Thank you Cards</p>
+                <p>Visiting Cards</p>
+                <p>Stamp and Passport size photo</p>
+                <p>Custom size photo</p>
+                <button class="btn">Rate Chart</button>
+            </div>
+            <div class="print_img">
+                <img src="images/sd 1 copy.png" alt="image">
+            </div>
+        </section>
+        <section class="editings">
+            <div class="edit_text">
+                <h4>Editings</h4>
+                <p>Adobe Premiere Pro's seamless integration with other Adobe Creative Cloud applications enhances
+                    productivity by enabling smooth transitions between editing, motion graphics, and sound design.</p>
+                <button class="btn">Show more</button>
+            </div>
+            <div class="edit_vdo">
+                <video src="SAMPLEAB.m4v" muted autoplay></video>
+            </div>
+        </section>
+        <section class="album_sample">
+            <img src="images/bhy.jpg" alt="image">
+            <p>9*24inch Travel album design</p>
+        </section>
+        <section class="packages">
+            <h4>Packages</h4>
+            <p>Price may differ according to customer choice</p>
+            <img src="images/offer.jpeg" alt="images">
+        </section>
+        <section id="contact" class="contact">
+            <h4>Contact</h4>
+            <iframe id="contact-form"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.298277321691!2d88.43052067437047!3d22.60533413177153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027585cc4a52a9%3A0xeda99e9d72dc8359!2sRATHI-%20RAJ%20STUDIO!5e0!3m2!1sen!2sin!4v1689787731612!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="contact-row">
+                <div class="contact-col">
+                    <div class="contact-col-item">
+                        <img src="images/telephone.png" alt="">
+                        <span>
+                            <p>+91 98367 17221</p>
+                            <p>Monday to Sunday, 10am to 10pm</p>
+                        </span>
+                    </div>
+                    <div class="contact-col-item">
+                        <img src="images/mail.png" alt="">
+                        <span>
+                            <p>rabindrabala@gmail.com</p>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                    <div class="contact-col-item">
+                        <img src="images/location.png" alt="">
+                        <span>
+                            <p>Jagatput main road, baguihati</p>
+                            <p>Kolkata, West Bengal</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col border-r">
+                    <div class="contact-form">
+                        <form name='submit-to-google-sheet' method="POST">
+                            <label for="name"></label>
+                            <input type="text" id="name" name="Name" placeholder="Name" required>
+
+                            <label for="email"></label>
+                            <input type="email" id="email" name="Email" placeholder="Email" required>
+
+                            <label for="Phone No."></label>
+                            <input type="text" id="Phone No." name="Phone No." placeholder="Phone no." required>
+
+                            <label for="message"></label>
+                            <textarea id="message" name="Message" placeholder="Describe your query" rows="5"
+                                required></textarea>
+
+                            <input type="submit" value="Submit" name="submit">
+                        </form>
+                        <div id="vic"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="images/RRSD.png" alt="logo">
+        <hr>
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>About us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident culpa nemo quaerat nulla officia
+                    alias iste incidunt ad illum animi numquam, ea eius, laboriosam sint!</p>
+            </div>
+            <div class="footer-col">
+                <h4>Facilities</h4>
+                <p>Photo print</p>
+                <p>Form fillups</p>
+                <p>Studio</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick contact</h4>
+                <div>
+                    <img src="images/telephone.png" alt="logo">
+                    <p>91 98756 26282</p>
+                </div>
+                <div>
+                    <img src="images/mail.png" alt="logo">
+                    <p>rabindrabala@gnail.com</p>
+                </div>
+                <div>
+                    <img src="images/location.png" alt="logo">
+                    <p>Baguihati, Kolkata</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us on</h4>
+                <p>Youtube</p>
+                <p>Facebook</p>
+                <p>Twiter</p>
+            </div>
+        </div>
+        <hr>
+        <p>&copy 2023 Rathi-Raj STUDIO all rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

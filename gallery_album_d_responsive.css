@@ -1,0 +1,177 @@
+@media (max-width: 710px) {
+    header h3 {
+        font-size: 60px;
+        margin-top: 40px;
+    }
+
+    .navbar {
+        margin: 0 6%;
+    }
+
+    .navbar a {
+        font-size: 12px;
+        margin: 20px 0;
+        margin-right: 10px;
+    }
+
+    .navbar a:hover {
+        font-size: 13px;
+    }
+
+    .container {
+        margin: 80px 6%;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery div {
+        width: 100%;
+        min-height: 300px;
+        background: #565656;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer img {
+        height: 40px;
+        margin: 20px 8%;
+    }
+
+    footer p {
+        font-size: 18px;
+        margin: 30px 8%;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .footer-col {
+        max-width: 100%;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .footer-col h4 {
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .footer-col p {
+        font-size: 18px;
+    }
+
+    .footer-col div img {
+        height: 20px;
+    }
+}
+
+@media (max-width: 560px) {
+    header h3 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .container {
+        margin: 40px 6%;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    header h3 {
+        font-size: 40px;
+    }
+
+    .navbar {
+        margin: 0 4%;
+    }
+
+    .navbar a {
+        font-size: 10px;
+    }
+
+    .navbar a:hover {
+        font-size: 11px;
+    }
+
+
+    .container {
+        margin: 35px 4%;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer img {
+        height: 30px;
+        margin: 15px 6%;
+    }
+
+    footer p {
+        font-size: 15px;
+        margin: 20px 6%;
+    }
+
+    .footer-row {
+        margin: 20px 6%;
+    }
+
+    .footer-col {
+        margin-bottom: 60px;
+    }
+
+    .footer-col h4 {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+
+    .footer-col p {
+        font-size: 15px;
+    }
+
+    .footer-col div img {
+        height: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    header h3 {
+        font-size: 40px;
+    }
+
+    .navbar {
+        margin: 0 2%;
+    }
+
+    .container {
+        margin: 30px 2%;
+    }
+
+    
+    footer img {
+        height: 30px;
+        margin: 15px 2%;
+    }
+
+    footer p {
+        font-size: 15px;
+        margin: 20px 2%;
+    }
+
+    .footer-row {
+        margin: 20px 2%;
+    }
+}

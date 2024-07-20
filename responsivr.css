@@ -1,0 +1,548 @@
+@media screen and (max-width: 710px) {
+    .background_img {
+        min-height: 90vh;
+        padding: 0 6%;
+        margin-bottom: 60px;
+    }
+
+    nav {
+        width: 80vw;
+        padding: 20px;
+        margin: auto;
+    }
+
+    nav img {
+        height: 30px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .intro_page {
+        max-width: 80%;
+        padding-top: 30%;
+    }
+
+    .intro_page h1 {
+        font-size: 55px;
+        margin: 5px 0;
+    }
+
+    .intro_btn {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .printings {
+        max-width: 90%;
+        margin: auto;
+        flex-direction: column-reverse;
+        margin-bottom: 80px;
+    }
+
+
+    .print_text {
+        padding: 30px 20px;
+    }
+
+    .editings {
+        flex-direction: column-reverse;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .edit_text {
+        padding: 30px 20px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .album_sample {
+        margin-bottom: 80px;
+    }
+
+    .album_sample img {
+        width: 90vw;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .album_sample p {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .packages h4 {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+
+    .packages p {
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+
+    .packages img {
+        width: 90vw;
+    }
+
+    
+    .contact {
+        margin: 0 6%;
+        margin-bottom: 80px;
+    }
+
+    .contact h4 {
+        font-size: 45px;
+        margin-bottom: 28px;
+    }
+
+    .contact iframe {
+        margin-bottom: 75px;
+    }
+
+    .contact-row {
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        border: 0;
+    }
+
+    .contact-col {
+        width: 100%;
+    }
+
+    .border-r {
+        border-right: 0;
+    }
+
+    .contact-col-item {
+        padding: 35px 0;
+    }
+
+    .contact-col-item img {
+        height: 45px;
+        margin-right: 18px;
+    }
+
+    .contact-col-item span p {
+        font-size: 18px;
+        padding: 1.8px 0;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        background: #000;
+        padding: 17px;
+        margin-bottom: 14px;
+        box-sizing: border-box;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .contact-form input[type="submit"] {
+        width: 100%;
+        padding: 10px 16px;
+        font-size: 24px;
+        margin: 28px 0;
+    }
+
+    footer img {
+        height: 40px;
+        margin: 20px 8%;
+    }
+
+    footer p {
+        font-size: 18px;
+        margin: 30px 8%;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .footer-col {
+        max-width: 100%;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .footer-col h4 {
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .footer-col p {
+        font-size: 18px;
+    }
+
+    .footer-col div img {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .background_img {
+        padding: 0 6%;
+        margin-bottom: 55px;
+    }
+
+    .intro_page {
+        max-width: 90%;
+        padding-top: 40%;
+    }
+
+    .intro_page p {
+        line-height: 28px;
+    }
+    .intro_page h1 {
+        font-size: 45px;
+        margin: 3px 0;
+    }
+
+    .print_text h4 {
+        margin-bottom: 28px;
+        font-size: 35px;
+    }
+
+    .print_text p {
+        font-size: 18px;
+        margin: 6px 0;
+    }
+
+    .edit_text h4 {
+        margin-bottom: 28px;
+        font-size: 35px;
+    }
+
+    .edit_text p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .album_sample img {
+        margin-top: 35px;
+    }
+
+    .album_sample p {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+
+    .packages h4 {
+        font-size: 40px;
+        margin-bottom: 23px;
+    }
+
+    .packages p {
+        font-size: 21px;
+        margin-bottom: 23px;
+    }
+
+    .contact {
+        margin: 0 6%;
+        margin-bottom: 40px;
+    }
+
+    .contact h4 {
+        font-size: 40px;
+        margin-bottom: 26px;
+    }
+
+    .contact iframe {
+        margin-bottom: 70px;
+    }
+
+    .contact-col-item {
+        padding: 34px 0;
+    }
+
+    .contact-col-item img {
+        height: 40px;
+        margin-right: 18px;
+    }
+
+    .contact-col-item span p {
+        font-size: 18px;
+        padding: 1.5px 0;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        padding: 16px;
+    }
+
+    .contact-form input[type="submit"] {
+        margin: 26px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .background_img {
+        padding: 0 4%;
+        margin-bottom: 50px;
+    }
+
+    nav img {
+        height: 25px;
+    }
+
+    .intro_page {
+        max-width: 100%;
+    }
+
+    .intro_page h1 {
+        font-size: 40px;
+        margin: 2.5px 0;
+    }
+
+    .print_text h4 {
+        margin-bottom: 25px;
+        font-size: 35px;
+    }
+
+    .print_text p {
+        font-size: 18px;
+        margin: 6px 0;
+    }
+
+    .edit_text h4 {
+        margin-bottom: 25px;
+        font-size: 35px;
+    }
+
+    .edit_text p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .album_sample img {
+        margin-top: 35px;
+    }
+
+    .album_sample p {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+
+    .packages h4 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .packages p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .contact {
+        margin: 0 4%;
+        margin-bottom: 35px;
+    }
+
+    .contact h4 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    .contact iframe {
+        margin-bottom: 60px;
+    }
+
+    .contact-col-item {
+        padding: 32px 0;
+    }
+
+    .contact-col-item img {
+        height: 35px;
+        margin-right: 16px;
+    }
+
+    .contact-col-item span p {
+        font-size: 16px;
+        padding: 1.5px 0;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        padding: 15px;
+    }
+
+    .contact-form input[type="submit"] {
+        margin: 25px 0;
+    }
+
+    footer img {
+        height: 30px;
+        margin: 15px 6%;
+    }
+
+    footer p {
+        font-size: 15px;
+        margin: 20px 6%;
+    }
+
+    .footer-row {
+        margin: 20px 6%;
+    }
+
+    .footer-col {
+        margin-bottom: 60px;
+    }
+
+    .footer-col h4 {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+
+    .footer-col p {
+        font-size: 15px;
+    }
+
+    .footer-col div img {
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .background_img {
+        padding: 0 2%;
+        margin-bottom: 50px;
+    }
+
+    .intro_page {
+        padding-top: 40%;
+    }
+
+    .intro_page h1 {
+        font-size: 35px;
+        margin: 2px 0;
+    }
+
+    .printings {
+        margin-bottom: 60px;
+        max-width: 95%;
+    }
+
+    .print_text h4 {
+        margin-bottom: 23px;
+        font-size: 32px;
+    }
+
+    .print_text p {
+        font-size: 16px;
+        margin: 6px 0;
+    }
+
+    .editings {
+        margin-bottom: 60px;
+        max-width: 95%;
+    }
+
+    .edit_text h4 {
+        margin-bottom: 23px;
+        font-size: 32px;
+    }
+
+    .edit_text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .album_sample img {
+        max-width: 95%;
+        margin-top: 32px;
+    }
+
+    .album_sample p {
+        font-size: 16px;
+        margin: 7px 0;
+    }
+
+    .album_sample {
+        margin-bottom: 60px;
+    }
+
+    .packages h4 {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+
+    .packages p {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+
+    .packages img {
+        max-width: 95%;
+    }
+
+    
+    .contact {
+        margin: 0 2%;
+        margin-bottom: 32px;
+    }
+
+    .contact h4 {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+
+    .contact iframe {
+        margin-bottom: 50px;
+    }
+
+    .contact-col-item {
+        padding: 28px 0;
+    }
+
+    .contact-col-item img {
+        height: 28px;
+        margin-right: 15px;
+    }
+
+    .contact-col-item span p {
+        font-size: 12px;
+        padding: 1.2px 0;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        padding: 14px;
+    }
+
+    .contact-form input[type="submit"] {
+        margin: 23px 0;
+    }
+
+    footer img {
+        height: 30px;
+        margin: 15px 2%;
+    }
+
+    footer p {
+        font-size: 15px;
+        margin: 20px 2%;
+    }
+
+    .footer-row {
+        margin: 20px 2%;
+    }
+}

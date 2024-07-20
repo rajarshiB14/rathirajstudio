@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Khula:wght@300;400;600;700;800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/navlogo2.jpg" type="image/jpg">
+    <title>RR STUDIO Gallery</title>
+    <link rel="stylesheet" href="gallery_catagory.css">
+    <link rel="stylesheet" href="gallery_catagoryresponsive.css">
+</head>
+
+<body>
+    <header>
+        <h3>Gallery</h3>
+        <div class="nav">
+            <a href="gallery.html">Home</a>
+            <a href="wedding.html" class="active">Wedding</a>
+            <a href="pre-wedding.html">Pre-Wedding</a>
+            <a href="rice-ceremony.html">Rice Ceremony</a>
+            <a href="album-desing.html">Album Design</a>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="container">
+            <div class="gallery">
+
+            </div>
+        </div>
+        <div class="modal" id="modal">
+            <div class="close" onclick="closeModal()"></div>
+            <img class="modal-content" id="modal-image">
+        </div>
+    </main>
+    <footer>
+        <img src="images/RRSD.png" alt="logo">
+        <hr>
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>About us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident culpa nemo quaerat nulla officia
+                    alias iste incidunt ad illum animi numquam, ea eius, laboriosam sint!</p>
+            </div>
+            <div class="footer-col">
+                <h4>Facilities</h4>
+                <p>Photo print</p>
+                <p>Form fillups</p>
+                <p>Studio</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick contact</h4>
+                <div>
+                    <img src="images/telephone.png" alt="logo">
+                    <p>91 98756 26282</p>
+                </div>
+                <div>
+                    <img src="images/mail.png" alt="logo">
+                    <p>rabindrabala@gnail.com</p>
+                </div>
+                <div>
+                    <img src="images/location.png" alt="logo">
+                    <p>Baguihati, Kolkata</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us on</h4>
+                <p>Youtube</p>
+                <p>Facebook</p>
+                <p>Twiter</p>
+            </div>
+        </div>
+        <hr>
+        <p>&copy 2023 Rathi-Raj STUDIO all rights reserved.</p>
+    </footer>
+    <script>
+        const modal = document.getElementById('modal');
+
+        function openModal(imageUrl) {
+            const modalImg = document.getElementById('modal-image');
+            modal.style.display = 'block';
+            modalImg.src = imageUrl;
+        }
+
+        function closeModal() {
+            modal.style.display = 'none';
+        }
+
+        // Example usage:
+        const gallery = document.querySelector('.gallery');
+
+        // Replace these URLs with actual image URLs from your photo gallery
+        const imageUrls = [
+            'images/background_img.jpg',
+            'images/background_img.jpg',
+            'images/background_img.jpg',
+            'images/background_img.jpg',
+            'images/background_img.jpg',
+            'images/background_img.jpg',
+            // Add more image URLs as needed
+        ];
+
+        imageUrls.forEach(url => {
+            const img = document.createElement('img');
+            img.src = url;
+            img.onclick = () => openModal(url);
+            gallery.appendChild(img);
+        });
+
+    </script>
+</body>
+
+</html>
